@@ -3,23 +3,23 @@ const seachable =[
     "Worcester",
     "Water town",
     "Waltham",
-    "Framimgham"
+    "Framingham"
 ];
 
-const inputField = document.getElementById("search");
+const inputField = document.getElementById("searchfield");
 const resultWrapper = document.querySelector("#resultWrapper");
 const result = document.getElementById("results");
-const cleanBtn= document.getElementById("closer");
+const cleanBtn= document.getElementById("closebtn");
 
-// clear button
 cleanBtn.addEventListener('click', function () {
-    inputField.value = "";
-    resultWrapper.classList.add('hidden');
+    // inputField.value = "";
+    // resultWrapper.classList.add('hidden');
+    console.log('clear button')
 });
 
-// input field
 inputField.addEventListener('input', function () {
     let keyInput = inputField.value;
+
 
 
     for (let item of seachable) {
