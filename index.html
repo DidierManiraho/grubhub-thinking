@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<!-- Start: logo and sign in button -->
+<div class="flex justify-between m-4">
+    <div class=""><img class="h-9 w-32" src="https://res.cloudinary.com/grubhub-assets/image/upload/v1626378102/Citrus-assets/GH%20Branded/Web%20%28Umami%29/Logos/Top%20Navigation/logo-full-primary.svg"></div>
+    <div class="">
+        <button class="bg-white text-blue-500 text-base font-bold border border-solid border-gray-300 rounded-md pt-2 pl-4 pr-4 pb-2 ">Sign in</button>
+    </div>
+</div>
+<!-- End: logo and sign in button -->
+<!-- Jumbotron -->
+
+<div class="pt-12 flex items-center justify-center relative overflow-hidden bg-no-repeat bg-cover" style="
+    background-image: url('https://res.cloudinary.com/grubhub-marketing/image/upload/f_auto,fl_lossy,q_80,b_rgb:000,o_60/v1454094376/grubhubHomePage/hero_default.jpg');
+    height: 500px;
+  ">
+    <div class="absolute flex items-center justify-center w-full ">
+
+<div class="">
+            <div class="text-white">
+            <h1 class="font-bold text-4xl mb-6 ">Finding all Soul Food restaurant that deliver to you.</h1>
+                <h4 class="font-bold  text-xl mb-6">Who delivers?</h4>
+                <h6 class="font-bold text-sm mb-6">Enter your address bellow.</h6>
+                <div class="w-full flex space-between pt-4">
+                    <div class="w-5/6">
+                        <div class=" bg-white flex border rounded">
+                            <!-- Start: map svg -->
+                            <div class="p-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-blue-500" viewBox="0 0 20 20" fill="currentColor" height="100%" width="100%">
+                                    <path fill-rule="evenodd"
+                                          d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                                          clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <!-- End: svg map -->
+
+                            <!-- Start: input search -->
+                            <div class="w-full p-3" >
+                                <input id="search" class="outline-none w-full text-gray-500 text-base font-normal" type="text" placeholder="Street address or zip code">
+                            </div>
+                            <!-- End: input search -->
+
+                            <!-- Start: close svg -->
+                            <div class="p-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 " viewBox="0 0 20 20" fill="currentColor" height="100%" width="100%">
+                                    <path fill-rule="evenodd"
+                                          d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                          clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <!-- End: close svg -->
+                        </div>
+                        <!-- start my result section -->
+                        <div id="resultWrapper" class="py-2 px-2 text-black bg-white rounded-b-lg border space-y-6 hover:bg-gray-200 hidden">
+                            <ul id="results" class="divide-y divide-slate-200 ">
+                                <li>Result1</li>
+                                <li>Result2</li>
+                                <li>Result3</li>
+                            </ul>
+                        </div>
+                        <!-- End my result section -->
+                    </div>
+
+                    <!-- Start: button -->
+                    <div class="w-1/6 pl-2">
+                        <div class="">
+                            <button class="text-white font-bold  p-3 bg-blue-500 rounded hover:bg-blue-600">Find food</button>
+                        </div>
+                    </div>
+                    <!-- End: button -->
+
+                </div>
+
+
+            </div>
+</div>
+
+
+    </div>
+
+
+</div>
+<!--End jumbotron-->
+
+
+
+
+</body>
+</html>
