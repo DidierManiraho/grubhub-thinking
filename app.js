@@ -12,16 +12,14 @@ const result = document.getElementById("results");
 const cleanBtn= document.getElementById("closebtn");
 
 cleanBtn.addEventListener('click', function () {
-    // inputField.value = "";
-    // resultWrapper.classList.add('hidden');
+    inputField.value = "";
+    resultWrapper.classList.add('hidden');
     console.log('clear button')
 });
 
 inputField.addEventListener('input', function () {
     let keyInput = inputField.value;
-
-
-
+    console.log(keyInput);
     for (let item of seachable) {
 
         if(item.toLocaleLowerCase() === keyInput){
